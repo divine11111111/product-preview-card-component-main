@@ -18,7 +18,8 @@ body {
 }
 
 
-.container-left img {
+.container-left{
+   background-image: url(/images/image-product-desktop.jpg);
    width: 100%;
    height: 100%;
    background-position: center;
@@ -62,7 +63,7 @@ body {
 .card-price {
    display: flex;
    flex-direction: row;
-   margin-bottom: 2rem;
+   margin-bottom: 2.5rem;
 }
 
 .card__real-price {
@@ -87,8 +88,9 @@ body {
    justify-content: center;
    font-size: 20px;
    font-family: 'Prompt';
-   width: 100%;
-   height: 60px;
+   width: 80%;
+   height: 50px;
+   margin-bottom: 2rem;
    border-radius: 12px;
    border: none;
    color: #fff;
@@ -112,14 +114,16 @@ body {
       grid-template-columns: 350px;
       justify-content: center;
       margin-top: 6rem;
+      height: 100%;
    }
    
    .container-left {
       height: 400px;
-      justify-self: stretch;
+      /* justify-self: stretch; */
    }
 
-   .container-left img{
+   .container-left {
+      background-image: url(/images/image-product-mobile.jpg);
       border-top-left-radius: 20px;
       border-top-right-radius: 20px;
       border-bottom-left-radius: 0;
